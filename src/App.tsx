@@ -18,6 +18,7 @@ import Meeting from "./pages/Meeting";
 import MyMeetings from "./pages/MyMeetings";
 import OneOnOneMeeting from "./pages/OneOnOneMeeting";
 import VideoConference from "./pages/VideoConference";
+import Navbar from './components/Navbar.jsx';
 
 export default function App() {
   const dispatch = useDispatch();
@@ -59,6 +60,9 @@ export default function App() {
 
   return (
     <ThemeSelector>
+    <div>
+    <Navbar />
+    </div>
       <EuiProvider colorMode={theme}>
         <EuiThemeProvider modify={overrides}>
           <Routes>
