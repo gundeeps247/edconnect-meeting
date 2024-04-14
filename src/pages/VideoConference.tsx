@@ -6,7 +6,7 @@ import {
   EuiSwitch,
 } from "@elastic/eui";
 import { addDoc } from "firebase/firestore";
-import moment from "moment";
+import moment from 'moment/moment.js';
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAppSelector } from "../app/hooks";
@@ -20,7 +20,7 @@ import Header from "../components/Header";
 import useAuth from "../hooks/useAuth";
 import useFetchUsers from "../hooks/useFetchUsers";
 import useToast from "../hooks/useToast";
-import { meetingsRef } from "../utils/firebaseConfig";
+import { meetingsRef } from "../utils/FirebaseConfig";
 import { generateMeetingID } from "../utils/generateMeetingId";
 import { FieldErrorType, UserType } from "../utils/types";
 

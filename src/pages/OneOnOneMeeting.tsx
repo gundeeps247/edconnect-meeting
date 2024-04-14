@@ -13,7 +13,7 @@ import Header from "../components/Header";
 import useAuth from "../hooks/useAuth";
 import useFetchUsers from "../hooks/useFetchUsers";
 import useToast from "../hooks/useToast";
-import { meetingsRef } from "../utils/firebaseConfig";
+import { meetingsRef } from "../utils/FirebaseConfig";
 import { generateMeetingID } from "../utils/generateMeetingId";
 import { FieldErrorType, UserType } from "../utils/types";
 

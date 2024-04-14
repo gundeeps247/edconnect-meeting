@@ -5,7 +5,7 @@ import moment from "moment";
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import useToast from "../hooks/useToast";
-import { firebaseAuth, meetingsRef } from "../utils/firebaseConfig";
+import { firebaseAuth, meetingsRef } from "../utils/FirebaseConfig";
 import { generateMeetingID } from "../utils/generateMeetingId";
 
 export default function JoinMeeting() {

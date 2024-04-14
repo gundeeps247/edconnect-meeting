@@ -18,7 +18,7 @@ import {
   onAuthStateChanged,
   signInWithPopup,
 } from "firebase/auth";
-import { firebaseAuth, firebaseDB, usersRef } from "../utils/firebaseConfig";
+import { firebaseAuth, firebaseDB, usersRef } from "../utils/FirebaseConfig";
 import { useNavigate } from "react-router-dom";
 import { useAppDispatch } from "../app/hooks";
 import { setUser } from "../app/slices/AuthSlice";

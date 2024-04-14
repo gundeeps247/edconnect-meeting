@@ -16,7 +16,7 @@ import { useAppSelector } from "../app/hooks";
 import Header from "../components/Header";
 import useAuth from "../hooks/useAuth";
 
-import { meetingsRef } from "../utils/firebaseConfig";
+import { meetingsRef } from "../utils/FirebaseConfig";
 import { MeetingType } from "../utils/types";
 // import EditFlyout from "../components/EditFlyout";
 
