@@ -20,7 +20,7 @@ import {
   getOneOnOneMeetingBreadCrumbs,
   getVideoConferenceBreadCrumbs,
 } from "../utils/breadcrumbs";
-import { firebaseAuth } from "../utils/FirebaseConfig";
+import { firebaseAuth } from "../utils/firebaseConfig";
 import { BreadCrumbsType } from "../utils/types";
 
 export default function Header() {

@@ -13,7 +13,7 @@ import moment from "moment";
 import React, { useEffect, useState } from "react";
 import useFetchUsers from "../hooks/useFetchUsers";
 import useToast from "../hooks/useToast";
-import { firebaseDB } from "../utils/FirebaseConfig";
+import { firebaseDB } from "../utils/firebaseConfig";
 import { FieldErrorType, MeetingType, UserType } from "../utils/types";
 import CreateMeetingButtons from "./FormComponents/CreateMeetingButtons";
 import MeetingDateField from "./FormComponents/MeetingDateField";
