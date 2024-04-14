@@ -2,13 +2,13 @@ import { getAuth } from "firebase/auth";
 import { initializeApp } from "firebase/app";
 import { collection, getFirestore } from "firebase/firestore";
 const firebaseConfig = {
-  apiKey: "AIzaSyBGvX0TlYdrmLdIRSLHfE7EPQAjW46bWVc",
-  authDomain: "edconnect-7fc22.firebaseapp.com",
-  projectId: "edconnect-7fc22",
-  storageBucket: "edconnect-7fc22.appspot.com",
-  messagingSenderId: "302790731895",
-  appId: "1:302790731895:web:e28b6155029c1af35e7e72",
-  measurementId: "G-5FBEGW4Q58"
+  apiKey: "AIzaSyAEli1GIgxE6QJDoH6BfWgKZIUarQXeDtQ",
+  authDomain: "meeting-fa92a.firebaseapp.com",
+  projectId: "meeting-fa92a",
+  storageBucket: "meeting-fa92a.appspot.com",
+  messagingSenderId: "911974788529",
+  appId: "1:911974788529:web:72249ab98109ff4800e190",
+  measurementId: "G-G7YYR7T9S5"
 };
 
 const app = initializeApp(firebaseConfig);
