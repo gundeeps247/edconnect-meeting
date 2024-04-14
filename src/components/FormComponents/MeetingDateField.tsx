@@ -1,5 +1,5 @@
 import { EuiDatePicker, EuiFormRow } from "@elastic/eui";
-import moment from "moment";
+import moment from 'moment/moment.js';
 import React from "react";
 
 function MeetingDateField({

@@ -1,7 +1,7 @@
 import { ZegoUIKitPrebuilt } from "@zegocloud/zego-uikit-prebuilt";
 import { onAuthStateChanged } from "firebase/auth";
 import { getDocs, query, where } from "firebase/firestore";
-import moment from "moment";
+import moment from 'moment/moment.js';
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import useToast from "../hooks/useToast";

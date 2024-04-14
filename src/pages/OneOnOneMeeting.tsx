@@ -1,6 +1,6 @@
 import { EuiFlexGroup, EuiForm, EuiSpacer } from "@elastic/eui";
 import { addDoc } from "firebase/firestore";
-import moment from "moment";
+import moment from 'moment/moment.js';
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAppSelector } from "../app/hooks";

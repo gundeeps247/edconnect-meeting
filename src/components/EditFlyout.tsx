@@ -9,7 +9,7 @@ import {
   EuiTitle,
 } from "@elastic/eui";
 import { doc, updateDoc } from "firebase/firestore";
-import moment from "moment";
+import moment from 'moment/moment.js';
 import React, { useEffect, useState } from "react";
 import useFetchUsers from "../hooks/useFetchUsers";
 import useToast from "../hooks/useToast";
